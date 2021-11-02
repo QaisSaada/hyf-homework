@@ -22,6 +22,9 @@ const shouldShowResultInDogYears = true;
 if (shouldShowResultInDogYears) { 
 console.log ("Your dog will be " + dogYear + " dog years old in 2027");
 }
+else {
+    console.log ("Your dog will be " + dogYearFuture - dogYearOfBirth  + " human years old in 2027")
+}
 
 
 // Housey pricey (A house price estimator)
@@ -67,6 +70,8 @@ const randomNumber = Math.floor(Math.random() * 10);
 const startupName = firstWords [randomNumber] + secondWord [randomNumber]
 
 console.log ( `The startup: ${startupName} contains ${startupName.length} characters` )
+
+
 
 
 
