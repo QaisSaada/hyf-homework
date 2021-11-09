@@ -72,7 +72,7 @@ function getFullName(firstname, surname, useFormalName = true) {
             class07Students.push("Queen");
         }
 
-        else if (class07Students.includes(studentName)) {
+        else if (class07Students.includes(studentName)= true) {
             console.log("Student " + studentName + " is already in class 07") 
         }
     }
