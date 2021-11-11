@@ -23,9 +23,9 @@ function getFullName(firstname, surname, useFormalName = true) {
   const listOfDays = ["sunday", "monday", "tusday", "wednsday", "thursday", "Friday", "Saterday"]
 
   function getEventWeekday (days) {
-      const Event = new Date ();
-      Event.setDate (Event.getDate() + days);
-      console.log (listOfDays[Event.getDay()])
+      const today = new Date ();
+      today.setDate (today.getDate() + days);
+      console.log (listOfDays[today.getDay()])
   }
 
   getEventWeekday (2) 
@@ -68,9 +68,10 @@ function getFullName(firstname, surname, useFormalName = true) {
             console.log("Class 07 is full") 
         }
 
-        else if (class07Students.length >= 6 && studentName === "Queen") {
+        else if (studentName === "Queen") {
             class07Students.push("Queen");
         }
+
 
         else if (class07Students.includes(studentName)= true) {
             console.log("Student " + studentName + " is already in class 07") 
