@@ -4,14 +4,13 @@ const danishWords = ["bil", "plante", "kaffe", "bog", "ø", "planetarium"];
 
 
 function findShorty() {
-    const shortestWord = danishWords[0].length
+    let shortestWord = danishWords[0]
     for (let i = 0; i < danishWords.length; i++) {
-        const word = danishWords[i].length
-        if (word < shortestWord) {
-            word = shortestWord
+        if (danishWords[i].length < shortestWord.length) {
+            shortestWord = danishWords[i]
         }
-        return shortestWord
     }
+    return shortestWord
 }
 
 console.log (findShorty(danishWords));
@@ -64,3 +63,5 @@ function newInputValue(){
     });
     }
 
+
+    console.log("Qais");
