@@ -8,13 +8,12 @@ const maxBar = document.querySelector("#max-Bar")
 
 const logKey = ((e) => {
   const filteredProducts = products.filter(product => {
-    console.log("max-bar:" + maxBar.value + "search-bar: " + searchBar.value + "product name: " + product.name + " product price: " + product.price) 
+    //console.log("max-bar:" + maxBar.value + "search-bar: " + searchBar.value + "product name: " + product.name + " product price: " + product.price) 
 
     let maxPrice = Infinity
 
-    //maxPrice = Infinity
     if (maxBar.value === "") {
-       //const maxPrice = Infinity
+      const maxPrice = Infinity
     } else
      {
       maxPrice = maxBar.value 

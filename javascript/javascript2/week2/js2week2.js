@@ -69,3 +69,17 @@ console.log(arrayOfGoodMovies)
 
 // 7- Create an array of movies where a word in the title is duplicated
 
+// callback?
+
+/*function completedHomework () {
+    console.log("finished your shit ")
+};
+
+function doneBaby (homework, callback) {
+    alert( "you are done with your ${homework}")
+    callback(completedHomework)
+
+    
+}
+
+doneBaby("math", completedHomework)*/
