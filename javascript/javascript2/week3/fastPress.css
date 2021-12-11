@@ -1,0 +1,57 @@
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .btns {
+    position: relative;
+    height: 25vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Smokum', cursive;
+  }
+
+.header {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    font-family: 'Smokum', cursive;
+    font-size: 75px;
+}
+
+.btn {
+    width: 200px;
+    color: yellow;
+}  
+
+.l-box {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    color: yellow;
+    font-family: 'Smokum', cursive;
+    font-size: 50px;
+}
+
+.s-box {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    color: yellow;
+    font-family: 'Smokum', cursive;
+    font-size: 50px;
+}
+
+input[type='number']{
+    width: 100px;
+} 
