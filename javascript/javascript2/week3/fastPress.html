@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fastPress.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smokum&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <video src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/708209935.mp4" autoplay loop playsinline muted></video>
+
+
+    <h1 class="header">The Good, The Bad & The JavaScript</h1>
+
+
+ <div class="btns">
+
+
+    <input type="number" name="Input" id="timeInput" max="60" min="5" placeholder="Stand-off time">
+    <button type="button" id="btn" >start</button>
+    <button type="button" id="re-btn" onclick="refreshPage()" >Restart Game</button>
+
+</div>
+
+
+    <div class="s-box">
+    <h3>S Player</h3>
+    <p class="scounter"></p>
+    </div>
+
+    <div class="l-box">
+    <h3>L Player</h3>
+    <p class="lcounter"></p>
+    </div>
+
+
+    <script src="fastPress.js"></script>
+</body>
+</html>
