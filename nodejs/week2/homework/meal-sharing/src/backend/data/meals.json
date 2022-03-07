@@ -1,0 +1,26 @@
+[
+    {
+        "id" : 1,
+        "title" : "Indian food in the summer",
+        "maxNumberOfGuests" : 5,
+        "description" : "A nice night out eating delicious indian food",
+        "createdAt" : "2019/12/7 14:34",
+        "price" : 67
+    },
+    {
+        "id" : 2,
+        "title" : "Italian food in the summer",
+        "maxNumberOfGuests" : 3,
+        "description" : "A good day out eating delicious italain food",
+        "createdAt" : "2019/12/7 14:34",
+        "price" : 90
+    },
+    {
+        "id" : 3,
+        "title" : "Jordanian food in winter ",
+        "maxNumberOfGuests" : 4,
+        "description" : "A week of pure food",
+        "createdAt" : "2019/12/7 14:34",
+        "price" : 100
+    }
+]
